@@ -17,11 +17,19 @@ Installation via Composer.
 
 ```
 {
+	"repositories": [
+		{
+			"type": "git",
+			"url": "https://github.com/TroiaStudio/PdfResponse"
+		}
+	],
     "require":{
         "joseki/pdf-response": ">= 2.1"
     }
 }
 ```
+
+You need set repositories, because this is only fork of original and updated for new PHP versions.
 
 
 How to prepare PDF from template
