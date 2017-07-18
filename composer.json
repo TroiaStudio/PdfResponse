@@ -22,7 +22,7 @@
         "castamir/pdf-response": "2.*"
     },
     "require": {
-        "mpdf/mpdf": "6.*"
+        "mpdf/mpdf": "7.*"
     },
     "require-dev": {
         "nette/application": "^2.4",
